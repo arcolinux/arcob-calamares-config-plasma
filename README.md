@@ -1,0 +1,2 @@
+# ArcoLinuxB-Plasma Calamares configuration
+
