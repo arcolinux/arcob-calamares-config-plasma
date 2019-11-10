@@ -1,0 +1,7 @@
+
+- name: "Kernel"
+  description: "Choose the LTS (LONG TERM SUPPORT) only if you need it"
+  critical: false
+  selected: false
+  packages:
+    - linux-lts

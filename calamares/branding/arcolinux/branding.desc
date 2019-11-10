@@ -33,7 +33,7 @@ windowExpanding:    normal
 # This setting is ignored if "fullscreen" is selected for
 # *windowExpanding*, above. If not set, use constants defined
 # in CalamaresUtilsGui, 800x520.
-windowSize: 1200px,750px
+windowSize: 1100px,650px
 
 # These are strings shown to the user in the user interface.
 # There is no provision for translating them -- since they
@@ -56,18 +56,22 @@ windowSize: 1200px,750px
 # Note that ANSI_COLOR and CPE_NAME don't make sense here, and
 # are not supported (the rest are). Remember to quote the string
 # if it contains substitutions, or you'll get YAML exceptions.
+#
+# The *Url* entries are used on the welcome page, and they
+# are visible as buttons there if the corresponding *show* keys
+# are set to "true" (they can also be overridden).
 strings:
-    productName:         ArcoLinuxB
-    shortProductName:    ArcoLinuxB
-    version:             1.0
-    shortVersion:        1.0
-    versionedName:       ArcoLinuxB
-    shortVersionedName:  ArcoLinuxB
-    bootloaderEntryName: ArcoLinuxB
+    productName:         "@{NAME}"
+    shortProductName:    ArcoLinux
+    version:             2.0
+    shortVersion:        2.0
+    versionedName:       ArcoLinux
+    shortVersionedName:  ArcoLinux
+    bootloaderEntryName: ArcoLinux
 #    productUrl:          https://arcolinux.info/
-#    supportUrl:          https://arcolinux.info/
+#    supportUrl:          https://arcolinuxforum.com/
 #    knownIssuesUrl:      https://arcolinux.info/
-#    releaseNotesUrl:     https://arcolinux.info/
+#    releaseNotesUrl:     https://arcolinux.info/arcolinux-editions/
 
 # These images are loaded from the branding module directory.
 #
@@ -84,7 +88,7 @@ strings:
 #       the window. Use `welcomeExpandingLogo` to make it non-scaled.
 #       Recommended size is 320x150.
 #
-# These strings can also use substitutions from os-release (see above).
+# These filenames can also use substitutions from os-release (see above).
 images:
     productLogo:         "squid.png"
     productIcon:         "logo.png"
