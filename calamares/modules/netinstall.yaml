@@ -1,7 +1,91 @@
-
-- name: "Kernel"
-  description: "Choose the LTS (LONG TERM SUPPORT) only if you need it"
+- name: "Linux kernel without any nvidia"
+  description: "Installs only the latest linux kernel (not the one from iso)"
   critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux
+- name: "Linux-lts kernel without any nvidia"
+  description: "Installs only the linux-lts kernel"
+  critical: false
+  hidden: false
   selected: false
   packages:
     - linux-lts
+- name: "Nvidia with linux kernel"
+  description: "Installs nvidia and linux kernel - check Arch wiki nvidia"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux
+    - nvidia
+    - nvidia-settings
+    - nvidia-utils
+- name: "Nvidia-lts with linux-lts kernel"
+  description: "Installs nvidia-lts and linux-lts kernel - check Arch wiki nvidia"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-lts
+    - nvidia-lts
+    - nvidia-settings
+    - nvidia-utils
+- name: "Nvidia-390xx with linux kernel"
+  description: "Installs nvidia-390xx and linux kernel - check Arch wiki nvidia"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux
+    - nvidia-390xx
+    - nvidia-390xx-settings
+    - nvidia-390xx-utils
+- name: "Nvidia-390xx with linux-lts kernel"
+  description: "Installs nvidia-390xx-lts and linux-lts kernel - check Arch wiki nvidia"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-lts
+    - nvidia-390xx-lts
+    - nvidia-390xx-settings
+    - nvidia-390xx-utils
+- name: "Intel-ucode"
+  description: "Installs intel-ucode - see Arch wiki microcode"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - intel-ucode
+- name: "Amd-ucode"
+  description: "Installs amd-ucode - see Arch wiki microcode"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - amd-ucode
+- name: "Libre Office Still"
+  description: "Installs libre office still - stable branch - conflicts with fresh"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - libreoffice-still
+- name: "Libre Office Fresh"
+  description: "Installs libre office fresh - feature branch - conflicts with still"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - libreoffice-fresh
+- name: "WPS Office"
+  description: "Installs wps office"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - wps-office
+    - wps-office-mime
+    - ttf-wps-fonts
