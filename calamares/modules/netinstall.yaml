@@ -275,3 +275,21 @@
     - wps-office
     - wps-office-mime
     - ttf-wps-fonts
+- name: "Plasma"
+  description: "Plasma"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - kde-applications-meta
+    - kdeaccessibility-meta
+    - kdebindings-meta
+    - kdeedu-meta
+    - kdegames-meta
+    - kdegraphics-meta
+    - kdemultimedia-meta
+    - kdenetwork-meta
+    - kdepim-meta
+    - kdesdk-meta
+    - kdeutils-meta
+    - kdewebdev-meta
