@@ -283,7 +283,6 @@
   packages:
     - kde-applications-meta
     - kdeaccessibility-meta
-    - kdebindings-meta
     - kdeedu-meta
     - kdegames-meta
     - kdegraphics-meta
