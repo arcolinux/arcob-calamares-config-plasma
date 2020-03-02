@@ -12,6 +12,20 @@
   selected: false
   packages:
     - linux-lts
+- name: "Linux-hardened kernel without any nvidia"
+  description: "Installs only the linux-hardened kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-hardened
+- name: "Linux-zen kernel without any nvidia"
+  description: "Installs only the linux-zen kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-zen
 - name: "Nvidia with linux kernel"
   description: "Installs nvidia and linux kernel - check Arch wiki nvidia"
   critical: false
@@ -79,6 +93,14 @@
     - arcolinux-plank-themes-git
     - screenkey-git
     - xfburn
+- name: "Calligra"
+  description: "Office Suite"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - calligra
+    - calligra-plan
 - name: "Development"
   description: "Development"
   critical: false
@@ -96,12 +118,11 @@
   hidden: false
   selected: false
   packages:
-    - adobe-source-sans-pro-fonts
     - terminus-font
     - ttf-bitstream-vera
+    - ttf-fira-code
     - ttf-inconsolata
     - ttf-liberation
-    - ttf-ubuntu-font-family
 - name: "Games"
   description: "Games"
   critical: false
@@ -147,7 +168,7 @@
     - evolution
     - falkon
     - filezilla
-    - firefox
+    - firefox-i18n-$LOCALE
     - geary
     - hexchat
     - insync
@@ -183,6 +204,7 @@
   hidden: false
   selected: false
   packages:
+    - ardour
     - audacious
     - audacity
     - celluloid
@@ -193,6 +215,7 @@
     - handbrake
     - kdenlive
     - lollypop
+    - lmms
     - obs-studio
     - openshot
     - mpv
@@ -213,6 +236,7 @@
   packages:
     - adapta-gtk-theme
     - arc-icon-theme
+    - arcolinux-arc-kde
     - arcolinux-arc-themes-nico-git
     - faba-icon-theme
     - gnome-icon-theme
@@ -224,6 +248,7 @@
     - oxy-neon
     - paper-icon-theme
     - papirus-icon-theme
+    - surfn-arc-breeze-icons-git
     - xcursor-simpleandsoft
 - name: "Utilities"
   description: "Utilities"
@@ -234,6 +259,8 @@
     - baobab
     - catfish
     - evince
+    - gitahead-bin
+    - gitfiend
     - glances
     - glxinfo
     - grsync
@@ -241,8 +268,10 @@
     - gufw
     - hddtemp
     - lm_sensors
+    - open-vm-tools
     - powertop
     - simple-scan
+    - systemd-manager
     - timeshift
     - vnstat
     - wttr
