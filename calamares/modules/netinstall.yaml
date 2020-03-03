@@ -236,7 +236,6 @@
   packages:
     - adapta-gtk-theme
     - arc-icon-theme
-    - arcolinux-arc-kde
     - arcolinux-arc-themes-nico-git
     - faba-icon-theme
     - gnome-icon-theme
@@ -248,7 +247,6 @@
     - oxy-neon
     - paper-icon-theme
     - papirus-icon-theme
-    - surfn-arc-breeze-icons-git
     - xcursor-simpleandsoft
 - name: "Utilities"
   description: "Utilities"
