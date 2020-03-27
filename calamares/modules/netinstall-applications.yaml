@@ -1,0 +1,140 @@
+- name: "Accessories"
+  description: "Accessories"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - cheese
+    - font-manager-git
+    - galculator
+    - flameshot
+    - liferea
+    - mediainfo
+    - mcomix
+    - pdfarranger
+    - plank
+    - arcolinux-plank-themes-git
+    - screenkey-git
+    - xfburn
+- name: "File Manager"
+  description: "Filemanager"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - caja
+    - dolphin
+    - mc
+    - nautilus
+    - nemo
+    - nemo-fileroller
+    - pcmanfm
+    - ranger
+- name: "Fonts"
+  description: "Fonts"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - terminus-font
+    - ttf-bitstream-vera
+    - ttf-fira-code
+    - ttf-inconsolata
+    - ttf-liberation
+- name: "Git"
+  description: "Git"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - gitahead-bin
+    - gitg
+    - gitfiend
+    - gitkraken
+- name: "Graphics"
+  description: "Graphics"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - blender
+    - darktable
+    - digikam
+    - gimp
+    - gpick
+    - inkscape
+    - krita
+    - nitrogen
+    - nomacs
+    - pinta
+- name: "Fun"
+  description: "Fun"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - arcolinux-meta-fun
+- name: "Password Manager"
+  description: "Password manager"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - bitwarden-bin
+    - enpass-bin
+    - keepassxc
+    - lastpass
+- name: "Privacy"
+  description: "Applications that ensure your privacy"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - tor-browser
+    - tor
+    - privoxy
+- name: "Terminals"
+  description: "Terminals"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - alacritty
+    - gnome-terminal
+    - guake
+    - kitty
+    - konsole
+    - lxterminal
+    - sakura
+    - terminator
+    - tilix
+    - tilda
+    - tmux
+- name: "Usb"
+  description: "Usb"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - etcher-bin
+    - imagewriter
+    - woeusb
+- name: "Virtualbox for Linux kernel"
+  description: "Installs virtualbox for linux kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - virtualbox
+    - virtualbox-host-dkms
+    - linux-headers
+- name: "Virtualbox for Linux-lts kernel"
+  description: "Installs virtualbox for linux-lts kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - virtualbox
+    - virtualbox-host-dkms
+    - linux-lts-headers
+    - linux-lts
