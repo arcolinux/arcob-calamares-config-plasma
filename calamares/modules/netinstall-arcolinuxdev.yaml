@@ -5,14 +5,14 @@
   selected: false
   expanded: true
   packages:
+    - arcolinux-local-xfce-git
+    - arcolinux-xfce-git
+    - discord
     - firefox
-    - sublime-text-dev
     - flameshot
     - meld
-    - the_platinum_searcher-bin
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - arcolinux-xfce-git
+    - scrot
+    - simplescreenrecorder
+    - sublime-text-dev
     - telegram-desktop
-    - discord
+    - the_platinum_searcher-bin

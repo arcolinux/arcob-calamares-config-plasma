@@ -8,8 +8,10 @@
     - albert
     - archey3
     - baobab
+    - bashtop
     - bleachbit
     - catfish
+    - dmidecode
     - evince
     - glances
     - google-earth-pro
@@ -19,6 +21,7 @@
     - hddtemp
     - kbackup
     - lm_sensors
+    - lshw
     - open-vm-tools
     - optimus-manager
     - meld
