@@ -19,11 +19,15 @@
     - hexchat
     - insync
     - ktorrent
+    - midori
+    - min
+    - netsurf
     - nextcloud-client
     - opera
     - pidgin
     - qbittorrent
     - qutebrowser
     - thunderbird
+    - torbrowser-launcher
     - transmission-gtk
     - vivaldi
