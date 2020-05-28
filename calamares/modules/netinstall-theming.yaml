@@ -6,7 +6,6 @@
   expanded: true
   packages:
     - adapta-gtk-theme
-    - adapta-kde
     - arc-icon-theme
     - arcolinux-arc-kde
     - arcolinux-arc-themes-nico-git
