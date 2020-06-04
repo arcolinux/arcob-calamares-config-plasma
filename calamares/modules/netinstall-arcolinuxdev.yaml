@@ -5,7 +5,7 @@
   selected: false
   expanded: true
   packages:
-    - arcolinux-local-xfce-git
+    - arcolinux-local-xfce4-git
     - arcolinux-xfce-git
     - discord
     - firefox
