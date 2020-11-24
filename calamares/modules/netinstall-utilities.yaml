@@ -13,6 +13,7 @@
     - catfish
     - dmidecode
     - evince
+    - flatpak
     - glances
     - google-earth-pro
     - grsync
@@ -31,6 +32,7 @@
     - sigil
     - simple-scan
     - screenfetch
+    - snapd
     - synapse
     - sysprof
     - systemd-manager
