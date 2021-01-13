@@ -5,6 +5,10 @@
   selected: false
   expanded: true
   packages:
+    - thunar
+    - thunar-volman
+    - thunar-archive-plugin
+    - thunar-media-tags-plugin
     - arcolinux-local-xfce4-git
     - arcolinux-xfce-git
     - discord
