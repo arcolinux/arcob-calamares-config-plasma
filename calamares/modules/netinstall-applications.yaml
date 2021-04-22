@@ -28,11 +28,32 @@
   selected: false
   expanded: true
   packages:
-    - terminus-font
-    - ttf-bitstream-vera
+    - ttf-anonymous-pro
+    - ttf-caladea
+    - ttf-carlito
+    - ttf-cascadia-code
+    - ttf-cormorant
+    - ttf-croscore
+    - ttf-eurof
+    - ttf-fantasque-sans-mono
     - ttf-fira-code
-    - ttf-inconsolata
-    - ttf-liberation
+    - ttf-fira-mono
+    - ttf-fira-sans
+    - ttf-font-awesome
+    - ttf-hactor
+    - ttf-hellvetica
+    - ttf-ibm-plex
+    - ttf-jetbrains-mono
+    - ttf-joypixels
+    - ttf-lato
+    - ttf-linux-libertine
+    - ttf-linux-libertine-g
+    - ttf-monofur
+    - ttf-ms-fonts
+    - ttf-nerd-fonts-symbols
+    - ttf-nerd-fonts-symbols-mono
+    - ttf-opensans
+    - ttf-proggy-clean
 - name: "Git"
   description: "Git applications"
   critical: false

@@ -5,19 +5,19 @@
   selected: false
   expanded: true
   packages:
-    - thunar
-    - thunar-volman
-    - thunar-archive-plugin
-    - thunar-media-tags-plugin
     - arcolinux-local-xfce4-git
     - arcolinux-xfce-git
     - discord
     - firefox
     - flameshot
+    - gitahead-bin    
     - meld
     - scrot
     - simplescreenrecorder
     - sublime-text-dev
     - telegram-desktop
     - the_platinum_searcher-bin
-    - gitahead-bin
+    - thunar
+    - thunar-volman
+    - thunar-archive-plugin
+    - thunar-media-tags-plugin

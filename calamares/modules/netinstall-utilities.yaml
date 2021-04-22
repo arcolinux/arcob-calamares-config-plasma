@@ -21,6 +21,7 @@
     - gtop
     - gufw
     - hddtemp
+    - htop
     - kbackup
     - lm_sensors
     - lshw
@@ -28,6 +29,7 @@
     - optimus-manager
     - meld
     - octopi
+    - pamac-aur
     - powertop
     - putty
     - screenfetch

@@ -29,8 +29,18 @@ Use gammaray
 
 /* ########## MAIN APPLICATION WINDOW ########## */
 
+#mainApp {
+}
+
 #mainText{
 	font : bold 16px;
+}
+
+#sidebarApp {
+
+}
+
+#logoApp {
 }
 
 #sidebarMenuApp {
@@ -42,6 +52,14 @@ QWidget {
 	font: 16px;
 }
 
+QTextEdit, QListView {
+}
+QDialogButtonBox {
+}
+QAbstractSpinBox {
+}
+QListWidget::item:alternate {
+}
 
 #view-button-back:hover {
 	color: #58B2D7;
@@ -199,6 +217,15 @@ QLineEdit#textBoxUserPassword, QLineEdit#textBoxRootPassword {
 
 /* ##########PARTITION ########## */
 
+#partitionLabel {
+}
+
+#partitionLabelsView {
+}
+
+#CreatePartitionDialog {
+}
+
 #partResizerWidget {
 	font: 16px;
 }
@@ -322,6 +349,29 @@ QTreeView::item:selected {
 	font: bold;
 }
 
+QTreeView::branch:has-siblings:!adjoins-item {
+}
+QTreeView::branch:has-siblings:adjoins-item {
+}
+QTreeView::branch:!has-children:!has-siblings:adjoins-item {
+}
+QTreeView::branch:has-children:!has-siblings:closed,
+QTreeView::branch:closed:has-children:has-siblings {
+}
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings  {
+}
+
+/* ########## CHECK BOX ########## */
+
+QCheckBox {
+}
+QCheckBox::indicator:unchecked {
+}
+QCheckBox::indicator:checked {
+}
+QItemSelectionModel::Select {
+}
 
 /* ########## HEADER VIEW ########## */
 
