@@ -26,6 +26,7 @@
     - picom
     - polkit-gnome
     - rofi
+    - rxvt-unicode
     - thunar
     - thunar-archive-plugin
     - thunar-volman
@@ -216,6 +217,7 @@
     - arcolinux-xfce-git
     - dmenu
     - feh
+    - fvwm3-git
     - gmrun
     - gsimplecal
     - picom
