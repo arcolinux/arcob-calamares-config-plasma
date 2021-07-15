@@ -50,6 +50,7 @@
     - optimus-manager
     - octopi
     - pamac-aur
+    - parcellite
     - pfetch
     - powertop
     - putty
@@ -72,6 +73,7 @@
     - ufetch-git
     - vnstat
     - wireshark-qt
+    - workrave
     - wttr
     - xlunch-git
     - yin-yang-git
