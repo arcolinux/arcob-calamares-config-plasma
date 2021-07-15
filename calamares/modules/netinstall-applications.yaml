@@ -11,7 +11,7 @@
     - gpick
     - flameshot-git
     - liferea
-    - mediainfo
+    - mediainfo-gui
     - mcomix
     - nitrogen
     - nomacs
@@ -19,41 +19,7 @@
     - plank
     - arcolinux-plank-themes-git
     - screenkey-git
-    - xfburn
     - vim-plugins
-- name: "Fonts"
-  description: "Fonts"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: true
-  packages:
-    - ttf-anonymous-pro
-    - ttf-caladea
-    - ttf-carlito
-    - ttf-cascadia-code
-    - ttf-cormorant
-    - ttf-croscore
-    - ttf-eurof
-    - ttf-fantasque-sans-mono
-    - ttf-fira-code
-    - ttf-fira-mono
-    - ttf-fira-sans
-    - ttf-font-awesome
-    - ttf-hactor
-    - ttf-hellvetica
-    - ttf-ibm-plex
-    - ttf-jetbrains-mono
-    - ttf-joypixels
-    - ttf-lato
-    - ttf-linux-libertine
-    - ttf-linux-libertine-g
-    - ttf-monofur
-    - ttf-ms-fonts
-    - ttf-nerd-fonts-symbols
-    - ttf-nerd-fonts-symbols-mono
-    - ttf-opensans
-    - ttf-proggy-clean
 - name: "Git"
   description: "Git applications"
   critical: false
@@ -65,14 +31,6 @@
     - gitg
     - gitfiend
     - gitkraken
-- name: "Fun"
-  description: "Fun script from ArcoLinux"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: true
-  packages:
-    - arcolinux-meta-fun
 - name: "Password Manager"
   description: "Password managers"
   critical: false
@@ -94,16 +52,6 @@
     - tor-browser
     - tor
     - privoxy
-- name: "Usb"
-  description: "Usb writing applications"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: true
-  packages:
-    - etcher-bin
-    - imagewriter
-    - woeusb
 - name: "Virtualbox for Linux kernel"
   description: "Installs virtualbox for linux kernel"
   critical: false

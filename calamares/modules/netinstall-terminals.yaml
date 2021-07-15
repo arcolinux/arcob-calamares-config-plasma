@@ -7,12 +7,16 @@
   packages:
     - alacritty
     - gnome-terminal
+    - gnome-terminal-transparency
     - guake
     - kitty
     - konsole
     - lxterminal
+    - oh-my-zsh-powerline-theme-git
     - sakura
     - terminator
+    - termite
     - tilix
     - tilda
     - tmux
+    - zsh-theme-powerlevel10k-git
