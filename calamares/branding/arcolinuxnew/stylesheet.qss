@@ -132,7 +132,7 @@ QListView {
 
 QListView::item:alternate {
 	color: #58B2D7;
-	color: white;
+	color: black;
 }
 
 QListView::item:!alternate:selected:active {
@@ -201,6 +201,10 @@ QLineEdit#textBoxUserPassword, QLineEdit#textBoxRootPassword {
 
 #partResizerWidget {
 	font: 16px;
+}
+
+#mlistFlags {
+	alternatingRowColors: false;
 }
 
 /* ########## PAGE_USERSETUP ########## */
