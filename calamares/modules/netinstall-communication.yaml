@@ -6,10 +6,13 @@
   expanded: true
   packages:
     - arcolinux-teamviewer
+    - element-desktop
     - discord
+    - google-chat-linux-bin
     - hexchat    
     - krdc
     - mailspring
+    - neochat
     - nomachine
     - pidgin    
     - qtox
@@ -19,6 +22,7 @@
     - teams
     - telegram-desktop
     - tigervnc
+    - tweetdeck-desktop
     - viber
     - whatsapp-nativefier    
     - wire-desktop
