@@ -12,6 +12,7 @@
     - arcolinux-sddm-slice-git
     - arcolinux-sddm-sugar-candy-git
     - arcolinux-sddm-urbanlifestyle-git
+    - simplicity-sddm-theme-git
 - name: "Login Manager: Lightdm"
   description: "Installs lightdm"
   critical: false
