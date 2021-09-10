@@ -80,5 +80,6 @@
   selected: false
   expanded: false
   packages:
+    - open-vm-tools
     - vmware-workstation
-    - vmware-keymaps   
+    - vmware-keymaps
