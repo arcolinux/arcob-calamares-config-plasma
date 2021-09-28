@@ -6,6 +6,7 @@
   expanded: true
   packages:
     - awesome-terminal-fonts
+    - nerd-fonts-source-code-pro
     - ttf-anonymous-pro
     - ttf-bitstream-vera
     - ttf-caladea
