@@ -38,7 +38,7 @@
   selected: false
   expanded: true
   packages:
-    - bitwarden-bin
+    - bitwarden
     - enpass-bin
     - keepassxc
     - lastpass
