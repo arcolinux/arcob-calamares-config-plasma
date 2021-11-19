@@ -80,6 +80,7 @@
     - bumblebee
     - disper
     - nvidia-dkms
+    - nvidia-prime
     - nvidia-xrun
     - optimus-manager
     - optimus-manager-qt
