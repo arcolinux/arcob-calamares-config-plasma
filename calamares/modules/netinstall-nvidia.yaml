@@ -60,6 +60,7 @@
   packages:
     - bumblebee
     - disper
+    - gwe
     - nvidia
     - nvidia-lts
     - nvidia-prime
