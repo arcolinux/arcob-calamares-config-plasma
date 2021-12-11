@@ -59,10 +59,14 @@
     - flatpak
     - octopi
     - pamac-all
+    - paru-bin
+    - pikaur-git
     - snapd
     - synapse
+    - trizen
     - ulauncher
     - xlunch-git
+    - yay-bin
 - name: "Power Management"
   description: "Power Management"
   critical: false
@@ -120,8 +124,11 @@
     - gufw
     - kbackup
     - mullvad-vpn-bin
+    - ookla-speedtest-bin
+    - pacback
     - parcellite
     - piper
+    - powerpill
     - putty
     - redshift
     - simple-scan
