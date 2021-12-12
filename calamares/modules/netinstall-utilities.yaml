@@ -98,6 +98,7 @@
     - lshw
     - nvtop
     - nvtop-git
+    - ookla-speedtest-bin
     - pfetch
     - powertop
     - screenfetch
@@ -124,7 +125,6 @@
     - gufw
     - kbackup
     - mullvad-vpn-bin
-    - ookla-speedtest-bin
     - pacback
     - parcellite
     - piper
