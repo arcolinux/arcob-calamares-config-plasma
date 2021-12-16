@@ -1,29 +1,3 @@
-- name: "Nvidia is installed by default"
-  description: "Select NVIDIA in BIOS or UEFI - installs the latest Nvidia"
-  critical: false
-  hidden: false
-  selected: false
-  immutable: false
-  expanded: false
-  packages:
-    - linux
-    - linux-headers
-    - nvidia
-    - nvidia-settings
-    - nvidia-utils
-- name: "Nvidia-lts for linux-lts kernel"
-  description: "Installs nvidia-lts for linux-lts kernel"
-  critical: false
-  hidden: false
-  selected: false
-  immutable: false
-  expanded: false  
-  packages:
-    - linux-lts
-    - linux-lts-headers
-    - nvidia-lts
-    - nvidia-settings
-    - nvidia-utils
 - name: "Xf86-video-intel"
   description: "Installs xf86-video-intel"
   critical: false
@@ -81,19 +55,3 @@
   selected: false
   packages:
     - cuda
-- name: "Nvidia Related"
-  description: "Nvidia related applications"
-  critical: false
-  hidden: false
-  selected: false
-  immutable: false
-  expanded: false
-  packages:
-    - bumblebee
-    - disper
-    - nvidia
-    - nvidia-lts
-    - nvidia-prime
-    - nvidia-xrun
-    - optimus-manager
-    - optimus-manager-qt
