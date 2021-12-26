@@ -76,6 +76,16 @@
   packages:
     - upower
     - system76-power
+- name: "Backlight"
+  description: "Backlight"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - acpilight
+    - brightnessctl
+    - light
 - name: "Utilities for hardware discovery"
   description: "Utility software for hardware discovery"
   critical: false
