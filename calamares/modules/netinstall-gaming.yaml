@@ -5,6 +5,7 @@
   selected: false
   expanded: true
   packages:
+    - aisleriot    
     - armagetronad
     - astromenace
     - chromium-bsu
