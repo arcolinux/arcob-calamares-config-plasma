@@ -101,6 +101,7 @@
     - dmidecode
     - glances
     - gotop-bin
+    - gsmartcontrol
     - gtop
     - hddtemp
     - htop
