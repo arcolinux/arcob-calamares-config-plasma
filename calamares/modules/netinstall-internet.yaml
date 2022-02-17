@@ -37,6 +37,7 @@
     - gdown
     - jdownloader2
     - ktorrent
+    - persepolis
     - qbittorrent
     - transmission-gtk
     - xdman
