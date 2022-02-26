@@ -25,7 +25,6 @@
     - orchis-theme-git
     - qogir-gtk-theme-git
     - qogir-kde-theme-git
-    - sweet-kde-theme-mars-git
     - sweet-theme-git
     - sweet-gtk-theme-dark
 - name: "Icons"
@@ -105,3 +104,11 @@
     - sardi-orb-colora-mint-y-icons-git
     - sardi-orb-colora-mixing-icons-git
     - sardi-orb-colora-variations-icons-git
+- name: "Packages that will install plasma as a dependency"
+  description: "Plasma related"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - sweet-kde-theme-mars-git
