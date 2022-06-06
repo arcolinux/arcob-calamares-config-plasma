@@ -11,6 +11,8 @@
     - arcolinux-sweet-mars-git
     - ayu-theme
     - breeze
+    - fluent-gtk-theme
+    - fluent-kde-theme-git
     - graphite-gtk-theme-git
     - kripton-theme-git
     - kvantum-theme-materia
@@ -39,6 +41,7 @@
     - faba-icon-theme-git
     - faba-mono-icons-git
     - flat-remix-git
+    - fluent-icon-theme-git
     - halo-icons-git
     - la-capitaine-icon-theme-git
     - moka-icon-theme-git
