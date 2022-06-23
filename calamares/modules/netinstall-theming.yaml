@@ -38,6 +38,7 @@
     - arc-icon-theme
     - arcolinux-candy-beauty-git
     - breeze
+    - dracula-icons-git
     - faba-icon-theme-git
     - faba-mono-icons-git
     - flat-remix-git
@@ -65,7 +66,9 @@
   selected: false
   expanded: true
   packages:
+    - bibata-rainbow-cursor-theme
     - capitaine-cursors
+    - catppuccin-cursors-git
     - layan-cursor-theme-git
     - oxy-neon
     - sweet-cursor-theme-git
