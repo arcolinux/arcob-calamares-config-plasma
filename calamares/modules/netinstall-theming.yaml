@@ -66,6 +66,8 @@
   selected: false
   expanded: true
   packages:
+    - bibata-cursor-translucent
+    - bibata-extra-cursor-theme
     - bibata-rainbow-cursor-theme
     - capitaine-cursors
     - catppuccin-cursors-git
