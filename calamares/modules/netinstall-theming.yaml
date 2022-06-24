@@ -11,6 +11,7 @@
     - arcolinux-sweet-mars-git
     - ayu-theme
     - breeze
+    - dracula-gtk-theme
     - fluent-gtk-theme
     - fluent-kde-theme-git
     - graphite-gtk-theme-git
@@ -71,6 +72,7 @@
     - bibata-rainbow-cursor-theme
     - capitaine-cursors
     - catppuccin-cursors-git
+    - dracula-cursors-git
     - layan-cursor-theme-git
     - oxy-neon
     - sweet-cursor-theme-git
