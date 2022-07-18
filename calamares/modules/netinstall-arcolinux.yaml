@@ -5,6 +5,7 @@
   selected: false
   expanded: true
   packages:
+    - arcolinux-meta-arc-theme
     - arcolinux-meta-asian-fonts
     - arcolinux-meta-fun
     - arcolinux-meta-log
@@ -29,6 +30,60 @@
     - arcolinux-teamviewer
     - arcolinux-tellme-git
     - arcolinux-xlunch-git
+- name: "ArcoLinux Arc Theming"
+  description: "ArcoLinux arc theming packages"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - arcolinux-arc-aqua-git
+    - arcolinux-arc-archlinux-blue-git
+    - arcolinux-arc-arcolinux-blue-git
+    - arcolinux-arc-azul-git
+    - arcolinux-arc-azure-dodger-blue-git
+    - arcolinux-arc-blood-git
+    - arcolinux-arc-blue-sky-git
+    - arcolinux-arc-botticelli-git
+    - arcolinux-arc-bright-lilac-git
+    - arcolinux-arc-bright-lime-green-git
+    - arcolinux-arc-carnation-git
+    - arcolinux-arc-carolina-blue-git
+    - arcolinux-arc-casablanca-git
+    - arcolinux-arc-crimson-git
+    - arcolinux-arc-dawn-git
+    - arcolinux-arc-emerald-git
+    - arcolinux-arc-evopop-git
+    - arcolinux-arc-fern-git
+    - arcolinux-arc-fire-git
+    - arcolinux-arc-froly-git
+    - arcolinux-arc-havelock-git
+    - arcolinux-arc-hibiscus-git
+    - arcolinux-arc-light-blue-grey-git
+    - arcolinux-arc-light-blue-surfn-git
+    - arcolinux-arc-light-salmon-git
+    - arcolinux-arc-mandy-git
+    - arcolinux-arc-mantis-git
+    - arcolinux-arc-medium-blue-git
+    - arcolinux-arc-niagara-git
+    - arcolinux-arc-nice-blue-git
+    - arcolinux-arc-numix-git
+    - arcolinux-arc-orchid-git
+    - arcolinux-arc-pale-grey-git
+    - arcolinux-arc-paper-git
+    - arcolinux-arc-pink-git
+    - arcolinux-arc-polo-git
+    - arcolinux-arc-punch-git
+    - arcolinux-arc-red-orange-git
+    - arcolinux-arc-rusty-orange-git
+    - arcolinux-arc-sky-blue-git
+    - arcolinux-arc-slate-grey-git
+    - arcolinux-arc-smoke-git
+    - arcolinux-arc-soft-blue-git
+    - arcolinux-arc-tacao-git
+    - arcolinux-arc-tangerine-git
+    - arcolinux-arc-tory-git
+    - arcolinux-arc-warm-pink-git
 - name: "ArcoLinux Theming"
   description: "ArcoLinux theming packages"
   critical: false
@@ -38,9 +93,6 @@
   packages:
     - arcolinux-candy-beauty-git
     - arcolinux-arc-kde
-    - arcolinux-arc-themes-2021-creative-git
-    - arcolinux-arc-themes-2021-git
-    - arcolinux-arc-themes-2021-sky-git
     - arcolinux-mint-y-icons-git
     - arcolinux-paleofetch-git
     - arcolinux-plank-git
