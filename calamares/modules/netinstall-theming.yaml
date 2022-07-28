@@ -6,7 +6,7 @@
   expanded: true
   packages:
     - adapta-gtk-theme
-	- arc-darkest-theme-git
+    - arc-darkest-theme-git
     - arcolinux-arc-kde
     - arcolinux-arc-themes-2021-git
     - arcolinux-arc-themes-2021-sky-git
