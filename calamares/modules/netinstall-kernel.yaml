@@ -32,6 +32,14 @@
   packages:
     - linux-zen
     - linux-zen-headers
+- name: "Linux-xanmod kernel"
+  description: "Installs the linux-xanmod kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-xanmod
+    - linux-xanmod-headers
 - name: "Intel-ucode"
   description: "Installs intel-ucode"
   critical: false
