@@ -40,6 +40,22 @@
   packages:
     - linux-xanmod
     - linux-xanmod-headers
+- name: "Linux-xanmod-edge kernel"
+  description: "Installs the linux-xanmod-edge kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-xanmod-edge
+    - linux-xanmod-edge-headers
+- name: "Linux-xanmod-lts kernel"
+  description: "Installs the linux-xanmod-lts kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-xanmod-lts
+    - linux-xanmod-lts-headers
 - name: "Intel-ucode"
   description: "Installs intel-ucode"
   critical: false
