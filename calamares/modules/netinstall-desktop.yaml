@@ -607,8 +607,17 @@
   selected: false
   packages:
     - plasma
-    - kde-applications-meta
-    - kde-system-meta   
+    - kde-accessibility-meta
+    - kde-education-meta
+    - kde-games-meta
+    - kde-graphics-meta
+    - kde-multimedia-meta
+    - kde-network-meta
+    - kde-pim-meta
+    - kde-sdk-meta
+    - kde-system-meta
+    - kde-utilities-meta
+    - kdevelop-meta   
     - arcolinux-arc-kde
     - arcolinux-config-plasma-git
     - arcolinux-gtk3-surfn-arc-breeze-git
