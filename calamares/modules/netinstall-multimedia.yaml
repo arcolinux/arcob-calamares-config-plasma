@@ -5,6 +5,7 @@
   selected: false
   expanded: true
   packages:
+    - amberol
     - ardour
     - audacious
     - audacious-plugins
