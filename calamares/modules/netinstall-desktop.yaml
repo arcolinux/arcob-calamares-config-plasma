@@ -538,6 +538,17 @@
     - mate-extra
     - mate-tweak
     - xfce4-terminal
+- name: "Desktop: Pantheon"
+  description: "Installs pantheon desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - arcolinux-config-all-desktops-git
+    - arcolinux-root-git
+    - archlinux-tweak-tool-git
+    - arcolinux-wallpapers-git
+    - pantheon
 - name: "Desktop: Openbox"
   description: "Installs openbox desktop"
   critical: false
