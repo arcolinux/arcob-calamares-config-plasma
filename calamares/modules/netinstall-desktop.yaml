@@ -30,6 +30,51 @@
     - thunar-volman
     - vicious
     - volumeicon
+    - xfce4-notifyd
+    - xfce4-power-manager
+    - xfce4-screenshooter
+    - xfce4-settings
+    - xfce4-taskmanager
+    - xfce4-terminal
+- name: "Desktop: Berry"
+  description: "Installs berry desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - alacritty
+    - arcolinux-berry-git
+    - arcolinux-config-all-desktops-git
+    - arcolinux-dconf-all-desktops-git
+    - arcolinux-gtk3-sardi-arc-git
+    - arcolinux-local-xfce4-git
+    - archlinux-logout-git
+    - arcolinux-polybar-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git
+    - arcolinux-root-git
+    - archlinux-tweak-tool-git
+    - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
+    - arcolinux-xfce-git
+    - berry-dev-git
+    - dmenu
+    - feh
+    - picom
+    - polybar
+    - polkit-gnome
+    - rofi
+    - sxhkd
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - ttf-hack
+    - volumeicon
+    - xfce4-notifyd
+    - xfce4-power-manager
+    - xfce4-screenshooter
+    - xfce4-settings
+    - xfce4-taskmanager
     - xfce4-terminal
 - name: "Desktop: Bspwm"
   description: "Installs bspwm desktop"
@@ -65,6 +110,11 @@
     - thunar-archive-plugin
     - thunar-volman
     - volumeicon
+    - xfce4-notifyd
+    - xfce4-power-manager
+    - xfce4-screenshooter
+    - xfce4-settings
+    - xfce4-taskmanager
     - xfce4-terminal
     - xtitle-git
 - name: "Desktop: Budgie"
@@ -109,6 +159,43 @@
     - mintlocale
     - nemo-fileroller
     - xfce4-terminal
+- name: "Desktop: Chadwm"
+  description: "Installs chadwm desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - alacritty
+    - arcolinux-chadwm-git
+    - arcolinux-config-all-desktops-git
+    - arcolinux-dconf-all-desktops-git
+    - arcolinux-gtk3-sardi-arc-git
+    - arcolinux-local-xfce4-git
+    - archlinux-logout-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git
+    - arcolinux-root-git
+    - archlinux-tweak-tool-git
+    - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
+    - arcolinux-xfce-git
+    - dmenu
+    - feh
+    - picom
+    - polkit-gnome
+    - rofi
+    - sxhkd
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - ttf-hack
+    - volumeicon
+    - xfce4-notifyd
+    - xfce4-power-manager
+    - xfce4-screenshooter
+    - xfce4-settings
+    - xfce4-taskmanager
+    - xfce4-terminal
 - name: "Desktop: Cutefish"
   description: "Installs cutefish desktop"
   critical: false
@@ -151,6 +238,11 @@
     - thunar-archive-plugin
     - thunar-volman
     - volumeicon
+    - xfce4-notifyd
+    - xfce4-power-manager
+    - xfce4-screenshooter
+    - xfce4-settings
+    - xfce4-taskmanager
     - xfce4-terminal
 - name: "Desktop: Deepin"
   description: "Installs deepin desktop"
@@ -240,6 +332,13 @@
     - xfce4-settings
     - xfce4-taskmanager
     - xfce4-terminal
+- name: "Desktop: Enlightenment"
+  description: "Installs enlightenment desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - enlightenment
 - name: "Desktop: Fvwm3"
   description: "Installs fvwm3 desktop"
   critical: false
@@ -329,8 +428,53 @@
     - thunar-archive-plugin
     - thunar-volman
     - volumeicon
+    - xfce4-notifyd
+    - xfce4-power-manager
+    - xfce4-screenshooter
+    - xfce4-settings
+    - xfce4-taskmanager
     - xfce4-terminal
     - xtitle-git
+- name: "Desktop: Hypr"
+  description: "Installs hypr desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - alacritty
+    - arcolinux-config-all-desktops-git
+    - arcolinux-dconf-all-desktops-git
+    - arcolinux-gtk3-sardi-arc-git
+    - arcolinux-hypr-git
+    - arcolinux-local-xfce4-git
+    - archlinux-logout-git
+    - arcolinux-polybar-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git
+    - arcolinux-root-git
+    - archlinux-tweak-tool-git
+    - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
+    - arcolinux-xfce-git
+    - dmenu
+    - feh
+    - hypr-dev-git
+    - picom
+    - polkit-gnome
+    - polybar
+    - rofi
+    - sxhkd
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - ttf-hack
+    - volumeicon
+    - xfce4-notifyd
+    - xfce4-power-manager
+    - xfce4-screenshooter
+    - xfce4-settings
+    - xfce4-taskmanager
+    - xfce4-terminal
 - name: "Desktop: i3"
   description: "Installs i3 desktop"
   critical: false
@@ -367,6 +511,11 @@
     - thunar-archive-plugin
     - thunar-volman
     - volumeicon
+    - xfce4-notifyd
+    - xfce4-power-manager
+    - xfce4-screenshooter
+    - xfce4-settings
+    - xfce4-taskmanager
     - xfce4-terminal
 - name: "Desktop: Icewm"
   description: "Installs icewm desktop"
@@ -438,7 +587,9 @@
     - volumeicon
     - xdgmenumaker
     - xfce4-notifyd
+    - xfce4-power-manager
     - xfce4-screenshooter
+    - xfce4-settings
     - xfce4-taskmanager
     - xfce4-terminal
 - name: "Desktop: Leftwm"
@@ -485,8 +636,10 @@
     - ttf-meslo-nerd-font-powerlevel10k
     - volumeicon
     - xfce4-notifyd
+    - xfce4-power-manager
     - xfce4-screenshooter
-    - xfce4-taskmanager    
+    - xfce4-settings
+    - xfce4-taskmanager
     - xfce4-terminal
 - name: "Desktop: Lxqt"
   description: "Installs lxqt desktop"
@@ -514,7 +667,10 @@
     - thunar
     - thunar-archive-plugin
     - thunar-volman
+    - xfce4-notifyd
+    - xfce4-power-manager
     - xfce4-screenshooter
+    - xfce4-settings
     - xfce4-taskmanager
     - xfce4-terminal
     - xscreensaver
@@ -606,11 +762,20 @@
     - tint2
     - volumeicon
     - xcape
+    - xfce4-notifyd
+    - xfce4-power-manager
     - xfce4-screenshooter
     - xfce4-settings
     - xfce4-taskmanager
     - xfce4-terminal
     - yad
+- name: "Desktop: Pantheon"
+  description: "Installs pantheon desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - pantheon
 - name: "Desktop: Plasma"
   description: "Installs plasma desktop"
   critical: false
@@ -694,6 +859,11 @@
     - thunar-archive-plugin
     - thunar-volman
     - volumeicon
+    - xfce4-notifyd
+    - xfce4-power-manager
+    - xfce4-screenshooter
+    - xfce4-settings
+    - xfce4-taskmanager
     - xfce4-terminal
 - name: "Desktop: Spectrwm"
   description: "Installs spectrwm desktop"
@@ -730,6 +900,11 @@
     - thunar-volman
     - volumeicon
     - xdo
+    - xfce4-notifyd
+    - xfce4-power-manager
+    - xfce4-screenshooter
+    - xfce4-settings
+    - xfce4-taskmanager
     - xfce4-terminal
     - xtitle-git
 - name: "Desktop: Ukui"
@@ -794,6 +969,51 @@
     - thunar-archive-plugin
     - thunar-volman
     - volumeicon
+    - xfce4-notifyd
+    - xfce4-power-manager
+    - xfce4-screenshooter
+    - xfce4-settings
+    - xfce4-taskmanager
+    - xfce4-terminal
+- name: "Desktop: Worm"
+  description: "Installs worm desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - alacritty
+    - arcolinux-config-all-desktops-git
+    - arcolinux-dconf-all-desktops-git
+    - arcolinux-gtk3-sardi-arc-git
+    - arcolinux-local-xfce4-git
+    - archlinux-logout-git
+    - arcolinux-polybar-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git
+    - arcolinux-root-git
+    - archlinux-tweak-tool-git
+    - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
+    - arcolinux-worm-git
+    - arcolinux-xfce-git
+    - dmenu
+    - feh
+    - picom
+    - polkit-gnome
+    - polybar
+    - rofi
+    - sxhkd
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - ttf-hack
+    - volumeicon
+    - worm-dev-git
+    - xfce4-notifyd
+    - xfce4-power-manager
+    - xfce4-screenshooter
+    - xfce4-settings
+    - xfce4-taskmanager
     - xfce4-terminal
 - name: "Desktop: Xfce4"
   description: "Installs xfce4 desktop"
@@ -844,6 +1064,11 @@
     - thunar-archive-plugin
     - thunar-volman
     - volumeicon
+    - xfce4-notifyd
+    - xfce4-power-manager
+    - xfce4-screenshooter
+    - xfce4-settings
+    - xfce4-taskmanager
     - xfce4-terminal
     - xmonad
     - xmonad-contrib
