@@ -16,6 +16,7 @@
   expanded: true
   packages:
     - btrfs-assistant
+    - btrfsmaintenance
     - grub-btrfs
     - snap-pac
     - snapper
