@@ -22,10 +22,12 @@
     - layan-kde-git
     - materia-gtk-theme
     - materia-kde
+    - nordic-kde-git
     - numix-gtk-theme-git
     - openbox-themes-pambudi-git
     - orchis-kde-theme-git
     - orchis-theme-git
+    - plata-theme
     - qogir-gtk-theme-git
     - sweet-theme-git
     - sweet-gtk-theme-dark
@@ -37,6 +39,7 @@
   expanded: true
   packages:
     - arc-icon-theme
+    - arc-x-icons-theme
     - arcolinux-candy-beauty-git
     - breeze-icons
     - dracula-icons-git
@@ -51,6 +54,8 @@
     - nordzy-icon-theme-git
     - numix-circle-arc-icons-git
     - numix-circle-icon-theme-git
+    - numix-icon-theme-git
+    - numix-kde-theme-git
     - obsidian-icon-theme
     - oranchelo-icon-theme-git
     - paper-icon-theme
@@ -58,6 +63,7 @@
     - papirus-folders-gui-bin
     - papirus-folders-nordic
     - papirus-icon-theme
+    - papirus-linux-universe
     - papirus-nord
     - qogir-icon-theme
     - surfn-mint-y-icons-git
@@ -73,6 +79,7 @@
   selected: false
   expanded: true
   packages:
+    - bibata-cursor-theme-bin
     - bibata-cursor-translucent
     - bibata-extra-cursor-theme
     - bibata-rainbow-cursor-theme
@@ -81,6 +88,7 @@
     - dracula-cursors-git
     - layan-cursor-theme-git
     - oxy-neon
+    - phinger-cursors
     - sweet-cursor-theme-git
     - vimix-cursors
     - xcursor-arch-cursor-complete
@@ -120,6 +128,21 @@
     - sardi-orb-colora-mint-y-icons-git
     - sardi-orb-colora-mixing-icons-git
     - sardi-orb-colora-variations-icons-git
+- name: "Changing the look"
+  description: "Changing the look"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - kvantum
+    - kvantum-qt5-git
+    - kvantum-qt6-git
+    - kvantum-theme-qogir-git
+    - picom
+    - picom-jonaburg-git
+    - picom-ibhagwan-git
+    - picom-git
 - name: "Packages that will install plasma as a dependency"
   description: "Plasma related"
   critical: false

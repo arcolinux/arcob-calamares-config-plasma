@@ -6,12 +6,15 @@
   expanded: true
   packages:
     - brave-bin
+    - chrome-gnome-shell
     - chromium
+    - chromium-widevine
     - falkon
     - firefox
     - firefox-adblock-plus
     - firefox-ublock-origin
     - google-chrome
+    - icecat
     - librewolf-bin
     - midori
     - min
@@ -33,6 +36,7 @@
     - deluge
     - filezilla
     - fragments
+    - freedownloadmanager
     - gdown
     - jdownloader2
     - ktorrent
@@ -62,3 +66,14 @@
     - geary
     - mailspring    
     - thunderbird
+- name: "Vpn Software"
+  description: "Vpn Software"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - mullvad-vpn-bin
+    - nordtray-bin
+    - nordpass-bin
+    - nordvpn-bin

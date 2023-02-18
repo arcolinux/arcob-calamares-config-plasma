@@ -41,6 +41,7 @@
     - gitahead-bin
     - gitg
     - gitfiend
+    - github-desktop-bin
     - gitkraken
 - name: "Password Manager"
   description: "Password managers"
@@ -94,17 +95,17 @@
     - open-vm-tools
     - vmware-workstation
     - vmware-keymaps
-- name: "Zsh"
-  description: "Zsh"
+- name: "Qemu software"
+  description: "Installs qemu software"
   critical: false
   hidden: false
   selected: false
-  expanded: true
+  expanded: false
   packages:
-    - zsh
-    - zsh-completions
-    - zsh-syntax-highlighting
-    - zsh-theme-powerlevel10k-git
-    - arcolinux-zsh-git
-    - oh-my-zsh-git
-    - oh-my-zsh-powerline-theme-git
+    - qemu-base
+    - qemu-full
+    - quickemu
+    - quickemu-git
+    - quickgui-bin
+    - vmware-workstation
+    - vmware-keymaps

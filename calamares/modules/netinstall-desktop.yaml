@@ -392,6 +392,9 @@
     - arcolinux-wallpapers-git
     - gnome
     - gnome-extra
+    - gnome-shell-extension-appindicator-git
+    - gnome-shell-extension-dash-to-dock
+    - gnome-shell-extension-pop-shell-git
     - gnome-system-tools
     - guake
     - ttf-hack

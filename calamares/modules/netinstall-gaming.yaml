@@ -40,6 +40,7 @@
     - arcolinux-meta-steam-nvidia
     - gamehub-bin
     - gamemode
+    - game-devices-udev
     - goverlay-bin
     - heroic-games-launcher-bin
     - itch
@@ -50,6 +51,7 @@
     - playonlinux
     - proton-community-updater
     - proton-ge-custom-bin
+    - protonup-qt-bin
     - protonup-git
     - rare
     - replay-sorcery

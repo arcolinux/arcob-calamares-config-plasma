@@ -7,6 +7,7 @@
   packages:
     - element-desktop
     - discord
+    - discord_arch_electron
     - google-chat-linux-bin
     - hexchat
     - jitsi-meet-desktop-bin
@@ -19,6 +20,7 @@
     - slack-desktop
     - teams
     - telegram-desktop
+    - telegram-desktop-bin
     - tweetdeck-desktop
     - viber
     - whatsapp-nativefier

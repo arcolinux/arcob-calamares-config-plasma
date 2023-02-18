@@ -66,18 +66,32 @@
   packages:
     - albert
     - appimagelauncher
+    - aura-bin
     - bauh
     - flatpak
+    - gnome-software
+    - gnome-software-packagekit-plugin
     - octopi
     - pace
+    - pace-git
+    - pacui
+    - pacui-git
+    - pacseek-bin
+    - paru
     - paru-bin
+    - paru-git
     - pikaur-git
+    - rate-mirrors
+    - rate-mirrors-bin
     - snapd
     - synapse
+    - topgrade
     - trizen
     - ulauncher
     - xlunch-git
+    - yay
     - yay-bin
+    - yay-git
 - name: "Power Management"
   description: "Power Management"
   critical: false
@@ -96,6 +110,7 @@
   packages:
     - acpilight
     - brightnessctl
+    - brillo
     - gummy
     - light
 - name: "Utilities for hardware discovery"
@@ -110,16 +125,23 @@
     - bottom
     - btop
     - cpufetch-git
+    - cpuid
     - cpu-x
     - dmidecode
+    - duf
+    - duf-bin
     - glances
+    - gnome-disk-utility
     - gotop-bin
     - gsmartcontrol
     - gtop
     - hddtemp
     - htop
+    - hw-probe
+    - inxi
     - lm_sensors
     - lshw
+    - neofetch
     - nvtop
     - nvtop-git
     - ookla-speedtest-bin
@@ -131,6 +153,16 @@
     - s-tui
     - sysprof
     - ufetch-git
+- name: "Utilities Kernels"
+  description: "Utility software kernels"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - mkinitcpio-firmware
+    - modprobed-db
+    - modprobed-db-git
 - name: "Utilities"
   description: "Utility software"
   critical: false
@@ -139,22 +171,32 @@
   expanded: true
   packages:
     - auto-cpufreq
+    - betterlockscreen
+    - betterlockscreen-git
     - bleachbit
     - btrbk
     - caffeine
     - caffeine-ng
     - catfish
+    - ckb-next-git
+    - debtap
     - deja-dup
+    - downgrade
     - fancontrol-gui-git
+    - find-the-command-git
+    - fingerprint-gui
+    - flavours
+    - hardcode-fixer-git
     - galculator
     - gammy
     - google-earth-pro
     - grsync
+    - grub-customizer
     - gufw
     - hardinfo-gtk3
     - kbackup
+    - konsave
     - linux-wifi-hotspot
-    - mullvad-vpn-bin
     - pacback
     - parcellite
     - piper

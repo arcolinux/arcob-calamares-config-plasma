@@ -15,6 +15,7 @@
     - clementine
     - curseradio-git
     - deadbeef
+    - deezer
     - elisa
     - gmusicbrowser
     - g4music
@@ -24,6 +25,7 @@
     - lxmusic
     - lmms
     - ncmpcpp
+    - olivia
     - pragha
     - radiotray
     - rhythmbox
@@ -32,6 +34,7 @@
     - soundconverter
     - spotify
     - spotifywm-git
+    - spotify-adblock-git
     - tauon-music-box
 - name: "Video Software"
   description: "Primarily Video software"
@@ -41,6 +44,7 @@
   expanded: true
   packages:
     - celluloid
+    - clapper
     - filebot
     - freetube-bin
     - guvcview
@@ -52,6 +56,7 @@
     - kodi-x11
     - kodi
     - kodi-addons
+    - losslesscut-bin
     - obs-studio
     - openshot
     - makemkv

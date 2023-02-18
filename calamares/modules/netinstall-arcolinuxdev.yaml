@@ -12,7 +12,11 @@
     - flameshot-git
     - gitahead-bin
     - meld
+    - scrot
     - simplescreenrecorder
     - sublime-text-4
     - telegram-desktop
     - the_platinum_searcher-bin
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
