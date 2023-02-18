@@ -5,6 +5,7 @@
   selected: false
   expanded: true
   packages:
+    - adobe-source-sans-pro-fonts
     - awesome-terminal-fonts
     - nerd-fonts-source-code-pro
     - ttf-anonymous-pro
@@ -20,6 +21,7 @@
     - ttf-fira-mono
     - ttf-fira-sans
     - ttf-font-awesome
+    - ttf-hack    
     - ttf-hactor
     - ttf-hellvetica
     - ttf-ibm-plex
@@ -37,3 +39,6 @@
     - ttf-nerd-fonts-symbols-1000-em-mono
     - ttf-opensans
     - ttf-proggy-clean
+    - ttf-roboto
+    - ttf-roboto-mono    
+    - ttf-ubuntu-font-family

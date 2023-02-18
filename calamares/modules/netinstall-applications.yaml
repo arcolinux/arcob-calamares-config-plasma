@@ -19,6 +19,18 @@
     - plank
     - arcolinux-plank-themes-git
     - screenkey-git
+    - variety
+- name: "Conky"
+  description: "Conky and conky collection"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - arcolinux-conky-collection-git
+    - arcolinux-pipemenus-git
+    - conky-lua-archers
+    - yad
 - name: "Git"
   description: "Git applications"
   critical: false
@@ -82,3 +94,17 @@
     - open-vm-tools
     - vmware-workstation
     - vmware-keymaps
+- name: "Zsh"
+  description: "Zsh"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - zsh
+    - zsh-completions
+    - zsh-syntax-highlighting
+    - zsh-theme-powerlevel10k-git
+    - arcolinux-zsh-git
+    - oh-my-zsh-git
+    - oh-my-zsh-powerline-theme-git

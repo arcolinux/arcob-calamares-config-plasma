@@ -1,5 +1,5 @@
 - name: "Login Manager: Sddm"
-  description: "Installed by default - choose more themes"
+  description: "Installs sddm"
   critical: false
   hidden: false
   selected: false
