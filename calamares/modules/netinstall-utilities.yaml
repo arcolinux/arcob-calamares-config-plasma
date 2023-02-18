@@ -209,12 +209,11 @@
     - solaar
     - stacer
     - stacer-bin
-    - systemd-manager
+    - systemd-manager-git
     - tlp
     - tuxboot
     - tuxboot-git
     - vnstat
-    - wacom-utility
     - wacom-settings-git
     - wireshark-qt
     - workrave
