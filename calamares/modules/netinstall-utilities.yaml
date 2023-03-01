@@ -129,7 +129,6 @@
     - cpu-x
     - dmidecode
     - duf
-    - duf-bin
     - glances
     - gnome-disk-utility
     - gotop-bin
