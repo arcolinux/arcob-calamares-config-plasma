@@ -29,8 +29,6 @@
     - urxvt-fullscreen
     - urxvt-perls
     - urxvt-resize-font-git
-    - vim
-    - vim-runtime
     - xfce4-terminal
     - xfce4-terminal-base16-colors-git
     - zsh-theme-powerlevel10k-git
