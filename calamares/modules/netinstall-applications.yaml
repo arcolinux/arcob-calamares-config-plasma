@@ -73,6 +73,7 @@
   packages:
     - virtualbox
     - virtualbox-host-dkms
+    - linux
     - linux-headers
 - name: "Virtualbox for Linux-lts kernel"
   description: "Installs virtualbox for linux-lts kernel"
@@ -83,8 +84,8 @@
   packages:
     - virtualbox
     - virtualbox-host-dkms
-    - linux-lts-headers
     - linux-lts
+    - linux-lts-headers
 - name: "Vmware"
   description: "Installs vmware software"
   critical: false

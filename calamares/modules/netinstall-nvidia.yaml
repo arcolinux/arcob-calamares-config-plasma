@@ -24,6 +24,19 @@
     - nvidia-dkms
     - nvidia-settings
     - nvidia-utils
+- name: "Nvidia-dkms for linux-hardened kernel"
+  description: "Installs nvidia-dkms for linux-hardened kernel"
+  critical: false
+  hidden: false
+  selected: false
+  immutable: false
+  expanded: false
+  packages:
+    - linux-hardened
+    - linux-hardened-headers
+    - nvidia-dkms
+    - nvidia-settings
+    - nvidia-utils
 - name: "Nvidia-dkms for linux-zen kernel"
   description: "Installs nvidia-dkms for linux-zen kernel"
   critical: false
@@ -37,19 +50,28 @@
     - nvidia-dkms
     - nvidia-settings
     - nvidia-utils
-- name: "Nvidia-dkms for linux-hardened kernel"
-  description: "Installs nvidia-dkms for linux-hardened kernel"
+- name: "Nvidia-dkms for linux-rt kernel"
+  description: "Installs nvidia-dkms for linux-rt kernel"
   critical: false
   hidden: false
   selected: false
-  immutable: false
-  expanded: false
   packages:
-    - linux-hardened
-    - linux-hardened-headers
+    - linux-rt
+    - linux-rt-headers
     - nvidia-dkms
     - nvidia-settings
-    - nvidia-utils       
+    - nvidia-utils
+- name: "Nvidia-dkms for linux-rt-lts kernel"
+  description: "Installs nvidia-dkms for linux-rt-lts kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-rt-lts
+    - linux-rt-lts-headers
+    - nvidia-dkms
+    - nvidia-settings
+    - nvidia-utils
 - name: "Nvidia Related"
   description: "Nvidia related applications"
   critical: false
