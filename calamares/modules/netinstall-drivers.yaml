@@ -1,12 +1,3 @@
-- name: "Xf86-video-intel"
-  description: "Installs xf86-video-intel"
-  critical: false
-  hidden: false
-  selected: false
-  immutable: false
-  expanded: false
-  packages:
-    - xf86-video-intel
 - name: "Xf86-video-nouveau"
   description: "Installs xf86-video-nouveau"
   critical: false
