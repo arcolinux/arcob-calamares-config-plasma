@@ -5,8 +5,9 @@
   selected: false
   expanded: true
   packages:
+    - adobe-source-code-pro-fonts
     - adobe-source-sans-fonts
-    - adobe-source-sans-pro-fonts
+    - adobe-source-serif-fonts
     - awesome-terminal-fonts
     - libertinus-font
     - lohit-fonts
