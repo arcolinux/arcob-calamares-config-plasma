@@ -6,6 +6,7 @@
   immutable: false
   expanded: true
   packages:
+    - hyprland-dev
     - arcolinux-hyprland-git
     - arcolinux-hyprland-profile-git
     - arcolinux-wayland-profile-git
@@ -17,6 +18,7 @@
   immutable: false
   expanded: true
   packages:
+    - sway-dev    
     - arcolinux-sway-git
     - arcolinux-sway-profile-git
     - arcolinux-wayland-profile-git
