@@ -6,10 +6,17 @@
   immutable: false
   expanded: true
   packages:
-    - hyprland-dev
+    - archlinux-logout-git
     - arcolinux-hyprland-git
     - arcolinux-hyprland-profile-git
+    - arcolinux-kitty-git
     - arcolinux-wayland-profile-git
+    - hyprland-dev
+    - kitty
+    - ttf-jetbrains-mono-nerd
+    - waybar-hyprland-git
+    - wofi
+    - xfce4-terminal
 - name: "Desktop: Sway - Wayland"
   description: "Installs sway - only on real metal - not with nvidia gpu driver"
   critical: false
@@ -18,7 +25,17 @@
   immutable: false
   expanded: true
   packages:
-    - sway-dev    
+    - archlinux-logout-git
+    - arcolinux-kitty-git
+    - arcolinux-nwg-drawer-git
     - arcolinux-sway-git
     - arcolinux-sway-profile-git
     - arcolinux-wayland-profile-git
+    - kitty
+    - nwg-drawer-bin
+    - sway-dev
+    - swayidle
+    - swaylock
+    - ttf-iosevka-nerd
+    - waybar
+
