@@ -13,6 +13,7 @@
     - arcolinux-wayland-profile-git
     - hyprland-dev
     - kitty
+    - swaybg
     - ttf-jetbrains-mono-nerd
     - waybar-hyprland-git
     - wofi
@@ -34,6 +35,7 @@
     - kitty
     - nwg-drawer-bin
     - sway-dev
+    - swaybg
     - swayidle
     - swaylock
     - ttf-iosevka-nerd
