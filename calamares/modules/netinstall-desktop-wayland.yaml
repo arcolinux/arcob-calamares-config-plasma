@@ -33,7 +33,6 @@
     - arcolinux-sway-git
     - arcolinux-sway-profile-git
     - arcolinux-wayland-profile-git
-    - dmenu
     - kitty
     - nwg-drawer-bin
     - rofi-lbonn-wayland-only-git
