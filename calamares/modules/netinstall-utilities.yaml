@@ -70,7 +70,6 @@
     - bauh
     - flatpak
     - gnome-software
-    - gnome-software-packagekit-plugin
     - octopi
     - pace
     - pace-git
