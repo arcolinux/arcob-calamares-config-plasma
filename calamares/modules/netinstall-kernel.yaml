@@ -72,22 +72,6 @@
   packages:
     - linux-xanmod-rt
     - linux-xanmod-rt-headers
-- name: "Linux-xanmod-tt kernel"
-  description: "Installs the linux-xanmod-tt kernel"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - linux-xanmod-tt
-    - linux-xanmod-tt-headers
-- name: "Linux-xanmod-anbox kernel"
-  description: "Installs the linux-xanmod-anbox kernel"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - linux-xanmod-anbox
-    - linux-xanmod-anbox-headers
 - name: "Intel-ucode"
   description: "Installs intel-ucode"
   critical: false
