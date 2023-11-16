@@ -289,6 +289,7 @@
     - dmenu
     - feh
     - lxappearance
+    - nerd-fonts-source-code-pro
     - picom
     - polkit-gnome
     - polybar
@@ -297,7 +298,6 @@
     - thunar
     - thunar-archive-plugin
     - thunar-volman
-    - ttf-sourcecodepro-nerd
     - volumeicon
     - xfce4-notifyd
     - xfce4-power-manager
