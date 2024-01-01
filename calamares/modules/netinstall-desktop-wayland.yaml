@@ -11,7 +11,7 @@
     - arcolinux-hyprland-profile-git
     - arcolinux-kitty-git
     - arcolinux-wayland-profile-git
-    - hyprland-dev
+    - hyprland-git
     - kitty
     - swaybg
     - thunar
