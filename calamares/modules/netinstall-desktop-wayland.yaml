@@ -8,9 +8,7 @@
   packages:
     - archlinux-logout-git
     - arcolinux-hyprland-git
-    - arcolinux-hyprland-profile-git
     - arcolinux-kitty-git
-    - arcolinux-wayland-profile-git
     - hyprland-git
     - kitty
     - swaybg
@@ -31,8 +29,6 @@
     - arcolinux-kitty-git
     - arcolinux-nwg-drawer-git
     - arcolinux-sway-git
-    - arcolinux-sway-profile-git
-    - arcolinux-wayland-profile-git
     - kitty
     - nwg-drawer-bin
     - rofi-lbonn-wayland-only-git
