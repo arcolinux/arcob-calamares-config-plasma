@@ -759,6 +759,7 @@
   selected: false
   packages:
     - alacritty
+    - archlinux-logout-git
     - arcolinux-btop-git
     - arcolinux-config-all-desktops-git
     - arcolinux-gtk3-sardi-arc-git
