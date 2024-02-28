@@ -182,8 +182,6 @@ images:
 style:
    SidebarBackground:    "#353945"
    SidebarText:          "#ECEDEE"
-   SidebarTextSelect:    "#FFFFFF"
-   SidebarTextHighlight: "#D35400"
 
 ### SLIDESHOW
 #
