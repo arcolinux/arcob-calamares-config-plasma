@@ -1,3 +1,11 @@
+- name: "ArcoLinux Plasma Packages"
+  description: "ArcoLinux plasma packages"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - arcolinux-plasma-keybindings-git
 - name: "ArcoLinux Meta Packages"
   description: "ArcoLinux meta packages"
   critical: false
