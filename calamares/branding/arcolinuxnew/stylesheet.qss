@@ -33,6 +33,7 @@ Use gammaray
 }
 
 #sidebarApp {
+	width : 250px;
 }
 
 #mainText{
@@ -82,7 +83,7 @@ QDialogButtonBox {
 
 QScrollBar:vertical {
      background: #efefef;
-     width: 20px;
+     width: 10px;
      margin: 38px 0 20px 0;
 }
 
@@ -94,7 +95,7 @@ QScrollBar::handle:vertical {
 QScrollBar::sub-line:vertical {
      border: none;
      background: none;
-     height: 20px;
+     height: 10px;
      subcontrol-position: top;
      subcontrol-origin: margin;
 }
@@ -102,7 +103,7 @@ QScrollBar::sub-line:vertical {
 QScrollBar::add-line:vertical {
      border: none;
      background: none;
-     height: 20px;
+     height: 10px;
      subcontrol-position: bottom;
      subcontrol-origin: margin;
 }
@@ -339,4 +340,8 @@ QProgressBar::chunk {
 	color: #edecf0;
     	height: 32px;
     	border: none;
+}
+
+QScrollBar:horizontal{
+	height:0
 }
