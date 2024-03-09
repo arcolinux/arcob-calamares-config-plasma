@@ -6,6 +6,7 @@
   expanded: true
   packages:
     - arcolinux-plasma-keybindings-git
+    - arcolinux-plasma-servicemenus-git
 - name: "ArcoLinux Meta Packages"
   description: "ArcoLinux meta packages"
   critical: false
