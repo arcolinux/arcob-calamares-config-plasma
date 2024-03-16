@@ -165,8 +165,6 @@
   expanded: true
   packages:
     - mkinitcpio-firmware
-    - modprobed-db
-    - modprobed-db-git
 - name: "Utilities"
   description: "Utility software"
   critical: false
