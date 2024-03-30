@@ -14,7 +14,7 @@
     - swaybg
     - thunar
     - ttf-jetbrains-mono-nerd
-    - waybar-hyprland-git
+    - waybar-git
     - wofi
     - xfce4-terminal
 - name: "Desktop: Sway - Wayland"
@@ -33,12 +33,12 @@
     - nwg-drawer-bin
     - rofi-lbonn-wayland-only-git
     - thunar
-    - sway-dev
+    - sway
     - swaybg
     - swayidle
     - swaylock
     - ttf-iosevka-nerd
-    - waybar
+    - waybar-git
 - name: "Desktop: Wayfire - Wayland"
   description: "Installs wayfire - only on real metal"
   critical: false
@@ -54,26 +54,25 @@
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-wallpapers-wayfire-git
-    - arcolinux-wayfire-dconf-git
-    - arcolinux-wayfire-nemesis-git
+    - arcolinux-wayfire-git
     - arcolinux-xfce-git
     - feh
     - foot
     - grim
     - kitty
     - libdisplay-info
+    - libliftoff
     - mako
     - polkit-gnome
-    - rofi-lbonn-wayland
+    - rofi-lbonn-wayland-only-git
     - slurp
     - swaybg
     - swayidle
     - swaylock
     - swww
     - thunar
-    - ttf-font-awesome
     - ttf-jetbrains-mono-nerd
-    - waybar
+    - waybar-git
     - wayfire-git
     - wayfire-plugins-extra-git
     - wcm-git
